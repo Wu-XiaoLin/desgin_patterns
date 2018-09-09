@@ -1,14 +1,18 @@
-package Factory;
+package simplefactory.Factory;
 
-import entity.BmwCar;
-import entity.BydCar;
-import entity.Car;
-import entity.TeslaCar;
+import simplefactory.entity.BmwCar;
+import simplefactory.entity.BydCar;
+import simplefactory.entity.Car;
+import simplefactory.entity.TeslaCar;
 
 import java.io.IOException;
-import java.sql.DriverManager;
 import java.util.Properties;
 
+/**
+ * 简单工厂模式
+ * @author 11325
+ * @date 208-09-08 23:13
+ */
 public class CarFactory {
 
     public static Properties pro = new Properties();
@@ -22,11 +26,12 @@ public class CarFactory {
     }
 
     public static void main(String[] args) {
-//        Car car = CarFactory.newCar();
-        Car car = simpleNewCar();
+        Car car = CarFactory.newCar();
+//        Car car = simpleNewCar();
         if(car != null){
             car.drive();
         }
+
     }
 
 

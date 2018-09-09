@@ -1,4 +1,4 @@
-package entity;
+package simplefactory.entity;
 
 public abstract class Car {
 

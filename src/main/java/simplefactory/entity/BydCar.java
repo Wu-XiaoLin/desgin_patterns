@@ -1,4 +1,4 @@
-package entity;
+package simplefactory.entity;
 
 public class BydCar extends Car {
 
