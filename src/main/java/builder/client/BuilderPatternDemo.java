@@ -2,6 +2,10 @@ package builder.client;
 
 import builder.base.impl.Coke;
 
+/**
+ * 建造者模式
+ * 使用场景:一些基本部件不会变，但是其组合经常变化的时候(参考OkHttp的Request构建方法)。
+ */
 public class BuilderPatternDemo {
 
     public static void main(String[] args) {
