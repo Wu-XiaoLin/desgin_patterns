@@ -1,0 +1,50 @@
+package flyweight.base.impl;
+
+import flyweight.base.Shape;
+
+public class Circle implements Shape {
+
+    private int x,y,radius;
+    private String color;
+
+    public Circle(String color) {
+        System.out.println("创建了一个 "+color+" 色的新对象");
+    }
+
+    public int getX() {
+        return x;
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+    public void setY(int y) {
+        this.y = y;
+    }
+
+    public int getRadius() {
+        return radius;
+    }
+
+    public void setRadius(int radius) {
+        this.radius = radius;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    @Override
+    public void draw() {
+        System.out.println("draw a "+x+"*"+y+" " + color + " circle");
+    }
+}
