@@ -2,6 +2,12 @@ package composite.client;
 
 import composite.base.Employee;
 
+/**
+ * 组合模式
+ * 何时使用：1、表示对象的部分-整体层次结构（树形结构）。
+ * 2、希望用户忽略单个对象和组合对象的不同，用户将统一的使用组合结构中的所有对象。
+ *
+ */
 public class CompositePatternDemo {
 
     public static void main(String[] args) {

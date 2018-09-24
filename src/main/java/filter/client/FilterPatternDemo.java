@@ -9,6 +9,10 @@ import filter.base.impl.SingleCriteria;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 过滤器模式
+ * 使用场景：
+ */
 public class FilterPatternDemo {
 
     public static void main(String[] args) {
