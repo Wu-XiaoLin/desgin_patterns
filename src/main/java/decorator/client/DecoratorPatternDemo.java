@@ -5,6 +5,11 @@ import decorator.base.impl.Circle;
 import decorator.base.impl.Rectangle;
 import decorator.base.impl.RedShapeDecorator;
 
+/**
+ * 装饰器模式
+ * 使用场景：扩展一个类的功能
+ *  动态增加功能，动态撤销
+ */
 public class DecoratorPatternDemo {
 
     public static void main(String[] args) {

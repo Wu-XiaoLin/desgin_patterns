@@ -3,6 +3,14 @@ package flyweight.client;
 import flyweight.base.ShapeFactory;
 import flyweight.base.impl.Circle;
 
+/**
+ * 享元模式
+ * 使用场景：1、系统中有大量的相似对象。
+ *          2、需要缓冲池的场景。
+ *
+ * 注意事项：1、注意划分外部状态和内部状态，否则可能会引起线程安全问题。
+ *          2、这些类必须有一个工厂对象加以控制。
+ */
 public class FlyweightPatternDemo {
 
     private static final String colors[] =
