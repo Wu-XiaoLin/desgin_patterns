@@ -1,12 +1,12 @@
 package interpreter.base.impl;
 
-import interpreter.base.Exprssion;
+import interpreter.base.Expression;
 
-public class AndExprssion implements Exprssion {
-    private Exprssion expr1;
-    private Exprssion expr2;
+public class AndExprssion implements Expression {
+    private Expression expr1;
+    private Expression expr2;
 
-    public AndExprssion(Exprssion expr1, Exprssion expr2) {
+    public AndExprssion(Expression expr1, Expression expr2) {
         this.expr1 = expr1;
         this.expr2 = expr2;
     }

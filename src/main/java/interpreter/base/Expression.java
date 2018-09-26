@@ -1,6 +1,6 @@
 package interpreter.base;
 
-public interface Exprssion {
+public interface Expression {
 
     boolean interpret(String context);
 }

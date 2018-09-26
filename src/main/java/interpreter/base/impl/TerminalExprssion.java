@@ -1,8 +1,8 @@
 package interpreter.base.impl;
 
-import interpreter.base.Exprssion;
+import interpreter.base.Expression;
 
-public class TerminalExprssion implements Exprssion {
+public class TerminalExprssion implements Expression {
     private String data;
 
     public TerminalExprssion(String data) {

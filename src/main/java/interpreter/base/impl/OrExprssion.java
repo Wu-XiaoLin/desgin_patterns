@@ -1,12 +1,12 @@
 package interpreter.base.impl;
 
-import interpreter.base.Exprssion;
+import interpreter.base.Expression;
 
-public class OrExprssion implements Exprssion {
-    private Exprssion expr1;
-    private Exprssion expr2;
+public class OrExprssion implements Expression {
+    private Expression expr1;
+    private Expression expr2;
 
-    public OrExprssion(Exprssion expr1, Exprssion expr2) {
+    public OrExprssion(Expression expr1, Expression expr2) {
         this.expr1 = expr1;
         this.expr2 = expr2;
     }
