@@ -5,6 +5,10 @@ import memento.base.Originator;
 
 /**
  * 备忘录模式
+ * 使用场景: 1、需要保存/恢复数据的相关状态场景。
+ *          2、提供一个可回滚的操作。
+ * 注意事项：1、为了符合迪米特原则，还要增加一个管理备忘录的类。
+ *          2、为了节省内存，可使用原型模式+备忘录模式。
  */
 public class MementoPatternDemo {
 
