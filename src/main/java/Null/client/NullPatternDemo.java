@@ -5,6 +5,8 @@ import Null.base.CustomerFactory;
 
 /**
  * 空对象模式
+ * 在空对象模式中，我们创建一个指定各种要执行的操作的抽象类和扩展该类的实体类，
+ * 还创建一个未对该类做任何实现的空对象类，该空对象类将无缝地使用在需要检查空值的地方。
  */
 public class NullPatternDemo {
     public static void main(String[] args) {
